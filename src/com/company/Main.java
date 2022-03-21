@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-          task26();
+          //task26();
           task51();
           task76();
           task101();
@@ -18,7 +18,12 @@ public class Main {
         System.out.println(k+"\nn="+n);
     }
     private static void task51(){
-
+        int n = (int) (Math.random() * 10 + 1);
+        int k= 0;
+        for (int i = n; i <= 2*n ; i++) {
+            k+= (i*i);
+        }
+        System.out.println(k+"\nn="+n);
     }
     private static void task76(){
 
