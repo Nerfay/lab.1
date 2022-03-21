@@ -6,7 +6,7 @@ public class Main {
           //task26();
           //task51();
           task76();
-          task101();
+          //task101();
           task126();
     }
     private static void task26(){
@@ -80,6 +80,149 @@ public class Main {
         System.out.println("отлично = "+j);
     }
     private static void task126(){
-
+        int l=5;
+        System.out.println("2022");
+        System.out.println("\t\tЯнварь");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t\t\t");
+                for (int k = 1; k <=31 ; k++) {
+                    System.out.print( k +"\t");
+                    l++;
+                    if(l==7){
+                        System.out.println();
+                        l=0;
+                    }
+                }
+        System.out.println("\n ");
+        System.out.println("\t\tФевраль");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t");
+        for (int k = 1; k <=28 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tМарт");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t");
+        for (int k = 1; k <=31 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tАпрель");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t\t");
+        for (int k = 1; k <=30 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tМай");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t\t\t\t");
+        for (int k = 1; k <=31 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tИюнь");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t");
+        for (int k = 1; k <=30 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tИюль");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t\t");
+        for (int k = 1; k <=31 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tАвгуст");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("");
+        for (int k = 1; k <=31 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tСентябрь");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t");
+        for (int k = 1; k <=30 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tОктябрь");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t\t\t");
+        for (int k = 1; k <=31 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
+        System.out.println("\n ");
+        System.out.println("\t\tНоябрь");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t");
+        for (int k = 1; k <=30 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }System.out.println("\n ");
+        System.out.println("\t\tДекабрь");
+        System.out.println("Пн\tВт\tСр\tЧт\tПт\tСб\tВс");
+        System.out.print("\t\t\t");
+        for (int k = 1; k <=31 ; k++) {
+            System.out.print( k +"\t");
+            l++;
+            if(l==7){
+                System.out.println();
+                l=0;
+            }
+        }
     }
 }
