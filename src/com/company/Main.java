@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
           //task26();
           //task51();
-          task76();
+          //task76();
           //task101();
-          task126();
+          //task126();
     }
     private static void task26(){
         int n = (int) (Math.random() * 10 + 1);
@@ -25,8 +25,20 @@ public class Main {
         }
         System.out.println(k+"\nn="+n);
     }
-    private static void task76(){
-
+    private static void task76() {
+        int n = (int) (Math.random() * 10 + 1);
+        double k= 0;
+        double a= 0;
+        double m=0;
+        double v=0;
+        for (int i = 1; i <= n ; i++) {
+            a+=Math.sin(i);
+            m+=Math.cos(i);
+            k+=1/a;
+            v+=m/a;
+        }
+        System.out.println(k);
+        System.out.println(v+"\nn="+n);
     }
     private static void task101(){
        int n=28;
